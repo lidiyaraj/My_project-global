@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+ <parameter name="a" value="5"/>
+  <parameter name="b" value="10"/>
+  <test name="Test"> 
+    <classes>
+      <class name="package1.PassingParameters"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
